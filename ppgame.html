@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>PP Game</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/jquery.mobile-1.4.5.css">
+	<script src="/js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="/js/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="common.css">
+	<link rel="stylesheet" href="ppgame.css">
+	<script src="ppgame.js"></script>
+	<style>
+	.key-board .key.c32 {
+		width: 14em;
+	}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<h1>PP Game</h1>
+		<div class="key-board">
+			<ul>
+				<li><div class="key c32" id="spacebar"><span>space</span></div></li>
+				<li><div class="key c49"><span>1</span></div></li>
+				<li><div class="key c50"><span>2</span></div></li>
+				<li><div class="key c51"><span>3</span></div></li>
+				<li><div class="key c39" id="right"><span>▶</span></div></li>
+			</ul>
+		</div>
+		<div class="gift-wrap">
+			<img src="/img/foryou/gifticon.jpg" class="chicken">
+		</div>
+		<div class="game-wrap">
+			<!-- <p>&nbsp;</p> -->
+			<img src="/img/foryou/rere.png" class="background">
+			<img src="/img/foryou/rere.png" class="background">
+			<img src="/img/foryou/rere.png" class="background">
+			<img src="/img/foryou/rere.png" class="background">
+			<img src="/img/foryou/rere.png" class="background">
+			<img src="/img/foryou/cloud01.png" class="cloud cloud-a">
+			<img src="/img/foryou/cloud01.png" class="cloud cloud-b">
+			<img src="/img/foryou/cloud01.png" class="cloud cloud-c">
+			<img src="/img/foryou/cloud01.png" class="cloud cloud-d">
+			<div class="result-msg pixel-f"></div>
+			<div class="game-msg press-f"></div>
+			<!-- 
+			<div class="bg-green">&nbsp;</div>
+			<div class="bg-ddong">&nbsp;</div> -->
+		</div>
+		<div class="user"></div>
+		<div class="question question-box">
+			<div class="first">
+				<p>수현이가 제일 좋아하는 연예인은?</p>
+				<span>1) 에릭</span><span>2) 윤시윤</span><span>3) 신혜성</span>
+			</div>
+			<div class="second">
+				<p>수현이가 제일 좋아하는 음식은?</p>
+				<span>1) 냉면</span><span>2) 짬뽕</span><span>3) 라면</span>
+			</div>
+			<div class="third">
+				<p>결혼식 날짜는 ?</p>
+				<span>1) 11월 11일</span><span>2) 11월 12일</span><span>3) 11월 13일</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
