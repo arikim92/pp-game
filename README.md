@@ -2,6 +2,8 @@
 
 ### 주절주절 ver01. `2017-04-10`
 
+[체험하기](http://toring.dothome.co.kr/foryou/ppgame.html)
+
 자바스크립트 공부 겸 개발하게 된 자바스크립트 게임.
 
 걸어가다 문제가 3번 나오는데, 다 맞추면 `Would you marry me ?` 라는 문자가 나오면서 `치킨` 사진이 나오고 ..
